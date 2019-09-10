@@ -1,0 +1,59 @@
+/* this defines the helper grid */
+.gridlines {
+  /* change these as you need */
+  --grid-size:50px;
+  --grid-color:#113229;
+}
+
+/* anything else you want to do 👇🏻 */
+
+h1 {
+  color: #E3EBC2;
+  font-size: 40pt;
+  font-family: avenir;
+  background-image: url(wave.png);
+  -webkit-background-clip:text;
+}
+
+.linear-wipe {
+
+background: linear-gradient(to right, #D6F1D5
+ 20%, #D6F1D5
+ 40%, #BED47D 60%, #BED47D 80%);
+  background-size: 200% auto;
+  
+ gradient(92deg, #BED47D
+, ##CCDF9F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+  
+  animation: shine 2s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center; }
+  }
+}
+
+h2 {
+	color:#C6ECD1;
+	font-family: avenir;
+}
+
+h3 {
+  color:#3CB496;
+  font-family: avenir;
+}
+
+p{
+	color: #287577;
+line-height: 1.2em;
+	font-family: baskerville;
+  font-size: 9.5pt;
+  margin-top: 0;
+}
+
+
+#pageTwo .columner {
+  column-count: 2;
+}
