@@ -8,7 +8,7 @@
 /* anything else you want to do 👇🏻 */
 
 h1 {
-  color: #C6E7EC;
+  color: #0F182E;
   font-size: 40pt;
   font-family: avenir;
   margin-left: 30px;
@@ -21,11 +21,27 @@ h1 {
 }
 
 
-h1 :hover { color: #0F182E; text-decoration: none}
+h1 :hover { color: #C6E7EC; text-decoration: none}
+
+h1 {  
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
 
 
 h2 {
-	color:#C6ECD1;
+	color:#0F182E;
 	font-family: avenir;
   font-size: 17pt;
 }
