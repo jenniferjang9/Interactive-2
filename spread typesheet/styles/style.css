@@ -8,37 +8,46 @@
 /* anything else you want to do 👇🏻 */
 
 h1 {
-  color: #E3EBC2;
+  color: #C6E7EC;
   font-size: 40pt;
   font-family: avenir;
-  background-image: url(wave.png);
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+  line-height:1.2;
+/*  background-image: url(wave.png/interactive-2);
   -webkit-background-clip:text;
+  animation: water 15s infinite;*/
 }
 
-.linear-wipe {
 
-background: linear-gradient(to right, #D6F1D5
- 20%, #D6F1D5
- 40%, #BED47D 60%, #BED47D 80%);
-  background-size: 200% auto;
-  
- gradient(92deg, #BED47D
-, ##CCDF9F);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-animation: hue 10s infinite linear;
-  
-  animation: shine 2s linear infinite;
-  @keyframes shine {
-    to {
-      background-position: 200% center; }
-  }
-}
+h1 :hover { color: #0F182E; text-decoration: none}
+
 
 h2 {
 	color:#C6ECD1;
 	font-family: avenir;
+  font-size: 17pt;
 }
+
+
+ #author{
+    color:#9CDECD;
+    font-family: avenir;
+    margin-left: 0px;
+    margin-right: 30px;
+    margin-top: 80px;
+    font-size: 11pt;
+    line-height: .85;}
+
+     #role{
+    color:#9CDECD;
+    font-family: avenir;
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-top: -3px;
+    font-size: 9pt;
+    line-height: .85;}
 
 h3 {
   color:#3CB496;
@@ -53,6 +62,11 @@ line-height: 1.2em;
   margin-top: 0;
 }
 
+#number{
+    font-family: avenir;
+  margin-left:150px;
+  margin-top: 0px;
+}
 
 #pageTwo .columner {
   column-count: 2;
