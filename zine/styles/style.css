@@ -26,9 +26,9 @@ body {
 
 .wave{
 	align-items: center;
-	position: relative;
-	bottom: -200px;
-	right: -110px;
+	position: absolute;
+	top: 150px;
+	left: 450px;
 	animation-name: floating;
     animation-duration: 3.5s;
     animation-iteration-count: infinite;
@@ -171,21 +171,48 @@ p{
 	font-size: 25pt;
 	font-family: avenir;
 	text-align: left;
+	width:65vw;
     /*padding-top: 320px;
     padding-right: 170px;
     padding-left: 850px;
     */line-height: 1;
     position: relative;
     top: -50px;
+    left:-50px;
 
 }
 
 
 h2{
-	color: #F14824;
-	font-size: 35pt;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	color: #FCEEAB;
+	font-size: 18pt;
+	font-family: avenir;
+	text-align: left;
+    /*padding-top: 320px;
+    padding-right: 170px;
+    padding-left: 850px;*/
+    line-height: 1.7;
+    position: absolute;
+    top: 250px;
+    width:55vw;
+    left: 150px;
+    right: 100px;
+
+}
+
+h3{
+	color: #FCEEAB;
+	font-size: 30pt;
+	font-family: avenir;
+	text-align: left;
+    /*padding-top: 320px;
+    padding-right: 170px;
+    padding-left: 850px;*/
+    line-height: 1.7;
+    position: absolute;
+    top: 250px;
+    width:70vw;
+    left: 50px;
 
 }
 
@@ -199,10 +226,10 @@ h2{
 
 
 .pagethree{
-	position: relative;
+	position: absolute;
 	color: #F14824 ;
-	top:  350px;
-	left: -190px;
+	top:  400px;
+	left: 255px;
 	font-size: 30pt;
 	font-weight: black;
 
