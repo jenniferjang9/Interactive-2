@@ -58,14 +58,6 @@ body {
 }
 
 
-.page7 {
-	height:100vh;
-  display:grid;
-  align-items:center;
-  position: relative;
-  background-color: black;
-}
-
 h1{
 	color: #F14824;
   	font-size: 50pt;
@@ -80,6 +72,7 @@ h1{
   	left: 75px;
 }
 
+
 p{
 	color: #FCEEAB;
 	font-size: 11pt;
@@ -91,10 +84,15 @@ p{
     */line-height: 1.7;
 }
 
+.rag{
+	letter-spacing: ;
+	font-size: 11pt;
+}
+
 h2{
 	color: #FCEEAB;
 	font-size: 20pt;
-	font-family: montserrat;
+	font-family: Montserrat;
 	font-weight: bold;
 	position:relative;
 
@@ -102,19 +100,327 @@ h2{
 /*	padding-bottom: 400px;
 	padding-right: 280px;
 	padding-left: 600px;*/
-
 }
+
+/* javascript stuff */
+
+
+#socialmedia {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #socialmedia {
+	opacity: 1;
+		opacity: 1;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret 5s step-end infinite;*/
+	/*animation: fadeIn 200ms ease-out;*/
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+#p1 {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #p1 {
+	opacity: 1;
+	animation: fadeInUp 2s;
+	}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+
+
+#svg1 {
+	opacity: 0;
+	transition: opacity 2s ease-out;
+}
+
+.visited #svg1 {
+	opacity: 1;
+}
+
+
+#mobiledevices {
+	opacity: 0;
+	transition: opacity .5s ease-out;
+}
+
+.visited #mobiledevices {
+	opacity: 1;
+ 	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret 5s step-end infinite;*/
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#p2 {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #p2 {
+	opacity: 1;
+animation: fadeInUp 2s;
+	}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+	
+
+#svg2 {
+	opacity: 0;
+	transition: opacity 2s ease-out;
+}
+
+.visited #svg2 {
+	opacity: 1;
+}
+
+
+/*@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity:1; }    
+}*/
+
+
+#bluetooth {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #bluetooth {
+	opacity: 1;
+ 		opacity: 1;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret 5s step-end infinite;*/
+	/*animation: fadeIn 200ms ease-out;*/
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+#p3 {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #p3 {
+	opacity: 1;
+	animation: fadeInUp 2s;
+	}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#svg3 {
+	opacity: 0;
+	transition: opacity 2s ease-out;
+}
+
+.visited #svg3 {
+	opacity: 1;
+}
+
+
+
+#desktopcomputer {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #desktopcomputer {
+	opacity: 1;
+ 		opacity: 1;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret 5s step-end infinite;*/
+	/*animation: fadeIn 200ms ease-out;*/
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+#p4 {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #p4 {
+	opacity: 1;
+	animation: fadeInUp 2s;
+	}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#svg4 {
+	opacity: 0;
+	transition: opacity 2s ease-out;
+}
+
+.visited #svg4 {
+	opacity: 1;
+}
+
+
+#searchengine {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #searchengine {
+	opacity: 1;
+ 	opacity: 1;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret 5s step-end infinite;*/
+	/*animation: fadeIn 200ms ease-out;*/
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+#p5 {
+	opacity: 0;
+	transition: opacity 200ms ease-out;
+}
+
+.visited #p5 {
+	opacity: 1;
+	animation: fadeInUp 1s;
+	}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+#svg5 {
+	opacity: 0;
+	transition: opacity 2s ease-out;
+}
+
+.visited #svg5 {
+	opacity: 1;
+}
+
+#arrow {
+	opacity: 0;
+	transition: opacity 2s ease-out;
+}
+
+.visited #arrow {
+	opacity: 1;
+}
+
+
+
+
+
+/* aligning body copy text */
 
 .bottom {
 position: absolute;
   top:320px;
   
-  width:420px;
+  width:29vw;
 }
 
 .right {
 	position: absolute;
-	left:850px;
+	right:100px;
 }
 .left {
 	position: absolute;
@@ -122,13 +428,14 @@ position: absolute;
 }
 
 
+
 .arrowRight {
 
-	width:100px;
-	height: 87px;
-	position: absolute;
-	right:50px;
-	bottom: 50PX;
+	width:100px; 
+	height: 87px; 
+	position: absolute; 
+	right: 50px; 
+	bottom: 50PX; 
 	/*top:calc(50vh - 43px);*/
 
 }
@@ -141,5 +448,134 @@ position: absolute;
         color: :#53a7ea;
 
 }
+
+
+.socialmedia{
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.facebook{
+	position: absolute;
+	bottom: 150px;
+	right: -180px;
+	animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.twitter{
+	position: absolute;
+	bottom: 150px;
+	right: -180px;
+	animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.youtube{
+	position: absolute;
+	bottom: 150px;
+	right: -180px;
+	animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.iphone{
+	position: absolute; 
+	top: 150px; 
+	left:750px;  
+    animation-name: floating; 
+    animation-duration: 2.7s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    margin-left: 30px; 
+    margin-top: 5px; 
+}
+
+
+.googlespeaker{
+	position: absolute;
+	top: 270px;
+	left: 250px;
+	animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.computer{
+	position: absolute;
+	top: 220px;
+	right:200px; 
+    animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.search{
+	position: absolute;
+	top: 270px;
+	left: 250px;
+	animation-name: floating;
+    animation-duration: 2.7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: -10px;
+    margin-top: -50px;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+
+
+
+.black{
+	color: black;
+}
+
+
+.hide {
+ 	opacity: 0;
+	transition: all ease 0.8s;
+}
+
+.hide:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
 
 
