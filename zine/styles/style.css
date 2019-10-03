@@ -133,7 +133,7 @@ position: absolute;
 	width:100px;
 	height: 87px;
 	position: absolute;
-	top: 260PX;
+	top: 190PX;
 	right:50px;
 	
 	
@@ -176,9 +176,9 @@ p{
     padding-right: 170px;
     padding-left: 850px;
     */line-height: 1;
-    position: relative;
-    top: -50px;
-    left:-50px;
+    position: absolute;
+    top: 225px;
+    left:50px;
 
 }
 
@@ -238,7 +238,7 @@ h3{
 .read{
 	color: #F14824;
 	position: absolute;
-	top: 200px;
+	top: 130px;
 	left: 850px;
 	font-size: 50pt;
 }
