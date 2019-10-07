@@ -10,3 +10,6 @@ window.addEventListener('scroll',function(){
 
 	pages[index].classList.add('visited')
 })
+
+
+
