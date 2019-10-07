@@ -25,7 +25,7 @@ body {
 	top: 300px;
 	right: 225px;
 	animation-name: floating;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: -10px;
@@ -120,7 +120,7 @@ body {
 }
 
 .page6 {
-	height:100vh;
+	height:10vh;
   display:grid;
   align-items:center;
   justify-items: center;
