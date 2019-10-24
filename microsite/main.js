@@ -11,7 +11,8 @@ div.style.top = (event.clientY - 100) + 'px'
 
 let speed = Math.sqrt(event.movementX * event.movementX + event.movementY * event.movementY)
 console.log(speed)
-div.style.borderRadius = (30 - speed)+'% '+(70 - speed)+'% '+(70 - speed)+'% '+(30 - speed)+'% / '+(30 - speed)+'% '+(65 - speed)+'% '+(35 - speed)+'% '+(70 - speed)+'%'
+// div.style.borderRadius = (100 - speed)+'% '+(70 - speed)+'% '+(50 - speed)+'% '+(30 - speed)
+div.style.borderRadius = (30 - speed)+'% '+(00 - speed)+'% '+(0 - speed)+'% '+(30 - speed)+'% / '+(0 - speed)+'% '+(65 - speed)+'% '+(35 - speed)+'% '+(0 - speed)+'%'
 
 
 	div.style.background = 'radial-gradient(hsl(' + ( 180 + event.clientX)+ 'deg,100%,50%), hsl('+ ( event.clientX)+'deg,100%,50%))'
@@ -21,47 +22,3 @@ div.style.borderRadius = (30 - speed)+'% '+(70 - speed)+'% '+(70 - speed)+'% '+(
 	document.body.appendChild(div)
 })
   
-  // console.log(event.pageX)
-  // console.log(event.pageY)
-  
-
-// let circle = document.querySelector('.circle')
-// let circleCount = 0
-
-// circle.addEventListener('click',function(){
-//   if(circleCount % 3 == 0){
-    
-    
-    
-    
-//     console.log('zero')
-//     let randomR = Math.random() * 255
-//     larry.style.background = 'rgb('+randomR+',128,128)'
-    
-//   } else if(larryCount % 3 == 1){
-    
-    
-    
-//     console.log('one')
-//     let randomWidth = 80 + Math.random() * 40
-//      circle.style.width = randomWidth + 'px'
-    
-//   } else if(circleCount % 3 == 2){
-    
-    
-    
-//     console.log('two')
-    
-//     circle.style.marginTop = Math.random() * 25 + 'px'
-    
-    
-//   }
-  
-//   circleCount = circleCount + 1
-  
-  
-//   console.log(circleCount)
-  
-  
-  
-// })
