@@ -1,0 +1,106 @@
+
+
+
+body {
+	position: absolute;
+	background: black;
+
+}
+
+/*div{
+	background-color: linear-gradient(to bottom right, #e66465, #9198e5);
+}*/
+
+h1{
+	color: white;
+  	font-size: 60pt;
+  	font-family:'Montserrat', sans-serif;  
+  	font-weight: 700;
+  	margin-left: 30px;
+  	margin-right: 30px;
+  	margin-top: 40px;
+    position: absolute;
+    top:200px;
+    left: 100px; 
+    right: 200px;
+  	line-height:1.2;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3s steps(40, end),
+    blink-caret 5s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/*.centered {
+	position: absolute;
+	top: 50%;
+    left:50%;
+	transform: translate(-50%, -50%);
+}*/
+
+
+
+.blob-one{
+	height: 200px;
+	width: 200px;
+	/*background: radial-gradient(#e66465, #9198e5);*/
+	color: white;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 100px/*30% 70% 70% 30% / 30% 65% 35% 70% */;
+	position: absolute;
+	animation: blobber $time 0s $timing_function infinite;
+  
+}
+
+@keyframes blobber {
+    0%  { border-radius: 30% 70% 70% 30% / 30% 65% 35% 70% ; }
+    25% { border-radius: 60% 40% 55% 49% / 60% 40% 25% 65%; }
+    50% { border-radius: 44% 56% 32% 68% / 69% 26% 74% 31%; }
+    75% { border-radius: 62% 38% 43% 57% / 55% 60% 40% 45%; }
+    100%{ border-radius: 48% 52% 68% 32% / 42% 28% 72% 58%; }
+}
+
+
+
+/*.blob-two{
+	height: 200px;
+	width: 200px;
+	background: radial-gradient(skyblue, pink);
+	color: white;
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 62% 38% 17% 83% / 61% 65% 35% 39%  ;
+}
+*/
+/*.circle{
+	height: 200px;
+	width: 200px;
+	background: radial-gradient(#e66465, #9198e5);
+	margin: 10px auto;
+	padding: 10px;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+	cursor: pointer;
+	border-radius: 30% 70% 70% 30% / 30% 65% 35% 70% ;
+}*/
+
+/*.polygon{
+	color: red;
+	clip-path: polygon(0 26%, 36% 0, 100% 61%, 34% 100%);
+}*/
+
