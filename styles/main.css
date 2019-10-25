@@ -8,6 +8,21 @@ body {
 	font-size: 20px;
 	font-weight: normal;
 	background: #E0B4A3;
+	background: linear-gradient(-45deg, #D59681, #D08B71, #E0B4A3, #E0B4A3);
+	background-size: 400% 400%;
+	animation: gradientBG 20s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* this is a comment */
@@ -48,8 +63,8 @@ h1 {
 	font-family: raleway;
 	font-size: 50px;
 	color: #B4403C;
-	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.9s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @-webkit-keyframes tracking-in-expand {
@@ -89,6 +104,7 @@ p {
 	font-size:14pt;
 	line-height: 150%;
 	font-family: raleway;
+	color: #502C1B;
 }
 
 ul {
@@ -99,9 +115,9 @@ ul {
 }
 
 a {
-	color:black;
+	color: #502C1B;
 }
 
 a:hover {
-	color: #CD846A;
+	color: #B4403C;
 }
