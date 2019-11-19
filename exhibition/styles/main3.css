@@ -1,0 +1,18 @@
+
+
+body {
+    background: #2E316D;
+    margin:0;
+	padding:0;
+}
+
+h1{
+	color: #FF6E1D;
+  	font-size: 60pt;
+  	font-family: Neue Haas Grotesk Display Pro ;  
+  	font-weight: bolder;
+    position: absolute;
+    top: 20px;
+    left: 100px; 
+  	line-height:1.2;
+}
