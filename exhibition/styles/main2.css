@@ -67,20 +67,23 @@ body {
 
 .quote.first /*stroke versoin*/ {
   animation-delay: 0;
-  /*top:0;*/ 
+  top:0; 
 }
 
 .quote.second {
   animation-delay: -7.5s;
-  /*opacity: 0;*/
+  opacity: 0;
+    top:0; 
 }
 .quote.third {
   animation-delay: -5s;
-  /*opacity: 0;*/
+  opacity: 0;
+    top:0; 
 }
 .quote.fourth {
-  animation-delay: 2.5s;
-  /*opacity: 0;*/
+  animation-delay: -2.5s;
+  opacity: 0;
+    top:0; 
 }
 .quote.lower {
   top:249px;
@@ -92,19 +95,17 @@ body {
   z-index: -7.5s;
 }
 .quote.lower.second {
-  animation-delay: -5s;
-  /*opacity: 0;*/
+  animation-delay: -7.5s;
+  opacity: 0;
 }
 .quote.lower.third {
-  animation-delay: -2.5s;
-  /*opacity: 0;*/
+  animation-delay: -5s;
+  opacity: 0;
 }
 .quote.lower.fourth {
-  animation-delay: 0s;
-  /*opacity: 0;*/
+  animation-delay: -2.5s;
+  opacity: 0;
 }
-
-
 
 .rectangle .quote.first{
 /*  fill version*/
