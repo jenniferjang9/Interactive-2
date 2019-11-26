@@ -6,49 +6,216 @@ body {
 	padding:0;
 }
 
-h1{
+
+.home {
+	position: absolute;
+    top: 35px;
+    right: 20px; 
+    text-align: right;
+    width:300px;
+}
+.home a {
+	float:left;
+	margin-right: 60px;
+}
+.home h2 {
+	margin:0;
 	color: #FF6E1D;
-  	font-size: 10pt;
-  	font-family: raleway ;  
-  	font-weight: lighter;
-    position: absolute;
-    top: 20px;
-    left: 1050px; 
-  	line-height:1.2;
+    font-size: 10pt;
+    font-family: raleway ;  
+    font-weight: lighter;
+    line-height:1.2;
 }
 
-h2{
-	color: #FF6E1D;
-  	font-size: 10pt;
-  	font-family: raleway ;  
-  	font-weight: lighter;
-    position: absolute;
-    top: 20px;
-    left: 1200px; 
-  	line-height:1.2;
+.hr {
+	 border-top: 1px dotted #FF6E1D;
 }
-
-
-h3{
-	color: #FF6E1D;
-  	font-size: 10pt;
-  	font-family: raleway ;  
-  	font-weight: lighter;
-    position: absolute;
-    top: 20px;
-    left: 1350px; 
-  	line-height:1.2;
-}
-
 
 .bw{
 	position: absolute;
-	left: 400px;
+	left: 300px;
+}
+
+
+.bw2{
+	position: absolute;
+	left: 300px;
+	opacity: 0;
+	animation-name: opacityOn;
+    animation-duration: 6s;
+    animation-delay: 8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: linear;
+
+    animation-name: opacityOff;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    transition: linear;
 }
 
 .orange{
 	position: absolute;
-	left: 430px;
+	left: 330px;
 	top: 90px;
 
 }
+
+#blackout {
+	width:100vw;
+	height:100vh;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1000000;
+	background-color: #2E316D;
+}
+.imagesLoaded #blackout {
+	display: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 350px;
+}
+
+.center::before,
+.center::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.glitch::before {
+
+  /* variation */
+  left: 2px;
+  text-shadow: -1px 0 red;
+    /* important: opaque background masks the original */
+  background: black;
+}
+
+.glitch::after {
+  /* ... anything needed to make it identical */
+
+  /* variation */
+  left: -2px;
+  text-shadow: -1px 0 blue;
+  
+  /* important: opaque background masks the original */
+  background: black;
+}
+
+@keyframes opacityOn {
+     0% {
+        opacity: 0;
+    }
+     25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+     75% {
+        opacity: 0;
+    }
+     100% {
+        opacity: 1;
+    }
+}
+@keyframes opacityOff {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+     60% {
+        opacity: 1;
+    }
+     65% {
+        opacity: 1;
+    }
+     66% {
+        opacity: 0;
+    }
+     70% {
+        opacity: 0;
+    }
+     76% {
+        opacity: 0;
+    }
+      77% {
+        opacity: 0;
+    }
+      78% {
+        opacity: 0;
+    }
+      79% {
+        opacity: 0;
+    }
+      80% {
+        opacity: 0;
+    }
+      90% {
+        opacity: 0;
+    }
+      95% {
+        opacity: 0;
+    }
+     100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,18 +1,158 @@
 
 
 body {
-    background: #2E316D;
-    margin:0;
-	padding:0;
+    background: #2E316D; 
+    margin:0; 
+	padding:0; 
 }
 
-h1{
-	color: #FF6E1D;
-  	font-size: 60pt;
-  	font-family: Neue Haas Grotesk Display Pro ;  
-  	font-weight: bolder;
-    position: absolute;
-    top: 20px;
-    left: 100px; 
-  	line-height:1.2;
+/*.icon{
+	top: 20px;
+	left: 20px;
+}*/
+
+.title h1{ 
+	color: #FF6E1D; 
+  	font-size: 65pt; 
+  	font-family: Neue Haas Grotesk Display Pro ; 
+  	font-weight: bolder; 
+    position: absolute; 
+    top: 2px; 
+    left: 140px; 
+  	line-height:1.2; 
 }
+
+.title h1:hover { 
+	-webkit-text-stroke: 2.0px #FF6E1D;
+	color:transparent;
+	  }
+
+
+.home {
+	position: absolute;
+    top: 35px;
+    right: 10px; 
+    text-align: right;
+    width:300px;
+}
+.home a {
+	float:left;
+	margin-right: 60px;
+}
+.home h2 {
+	margin:0;
+	color: #FF6E1D;
+    font-size: 10pt;
+    font-family: raleway ;  
+    font-weight: lighter;
+    line-height:1.2;
+}
+
+
+#gridBox {
+	display:grid;
+	grid-template-columns: 102px 1fr 1fr 1fr 1fr;	
+	grid-template-rows: 1fr 1fr;	
+	width: 1300px;
+    height: 600px;
+    border: 1px #FF6E1D solid;
+    border: 1px #FF6E1D solid;
+	position: absolute;
+	top:190px;
+	left:-2px;
+	/*background: #FF6E1D;*/
+	font-family: raleway;
+	font-size: 15pt;
+	font-weight: bold;
+	color: #FF6E1D;
+}
+#gridBox div {
+	border:1px solid #FF6E1D;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#gridBox div:hover {
+	-webkit-text-stroke: 1px #FF6E1D;
+	  color:transparent;
+}
+
+#gridBox #solar:hover {	 
+	  background:url(../images/solarization2.jpg);
+	  background-size: cover;
+	  position: ;
+}
+
+#gridBox #distort:hover {	  
+	  background:url(../images/distortion.jpg);
+	  background-size: cover;
+}
+
+
+#gridBox #focus:hover {	  
+	  background:url(../images/out-of-focus.png);
+	  background-size: cover;
+	  
+}
+
+#gridBox #double:hover {	  
+	  background:url(../images/double-exposure.jpg);
+	  background-size: cover;
+}
+
+#gridBox #blur:hover {	  
+	  background:url(../images/motion-blur.jpg);
+	  background-size: cover;
+}
+
+#gridBox #reflect:hover {	  
+	  background:url(../images/reflection.jpg);
+	  background-size: cover;
+}
+
+#gridBox #off:hover {	  
+	  background:url(../images/off-framing2.png);
+	  background-size: cover;
+}
+
+#gridBox #shadows:hover {	  
+	  background:url(../images/shadows.jpg);
+	  background-size: cover;
+}
+
+#leftSideBox {
+	position: absolute;
+	top:0;
+	min-height:100vh;
+	left:0;
+	width:100px;
+	border-right: 2px #FF6E1D solid;
+}
+
+
+a{
+	text-decoration: none;
+	color: #FF6E1D;
+}
+
+#focus a: hover{
+	  -webkit-text-stroke: 1px #FF6E1D;
+	  color:transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
