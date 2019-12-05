@@ -83,19 +83,20 @@ p{
 
 
 .square{
-	height: 530px;
-	width: 400px;
+	height: 500px;
+	width: 380px;
 	background-color: #2E316D;
 	position: absolute;
-	right: 200px;
-	top: 260px;
+	right: 215px;
+	top: 270px;
 }
 
 
 .focus{
 	position: absolute;
+  height:500px;
 	right: 250px;
-	top: 210px;
+	top: 230px;
 
 }
 
