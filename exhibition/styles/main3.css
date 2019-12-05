@@ -61,8 +61,8 @@ body {
 	top:190px;
 	left:-2px;
 	/*background: #FF6E1D;*/
-	font-family: raleway;
-	font-size: 15pt;
+	font-family: Neue Haas Grotesk Display Pro;
+	font-size: 16pt;
 	font-weight: bold;
 	color: #FF6E1D;
 }
@@ -71,51 +71,70 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	position:relative;
+	overflow: hidden;
+}
+#gridBox div a {
+	position: relative;
+	z-index: 10000;
 }
 #gridBox div:hover {
 	-webkit-text-stroke: 1px #FF6E1D;
 	  color:transparent;
 }
 
-#gridBox #solar:hover {	 
+#gridBox div div {
+	opacity: 0;	
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	transform:scale(1);
+	transition: opacity 800ms ease, transform 3000ms ease;
+}
+#gridBox div:hover div {
+	opacity: 1;	
+	transform:scale(1.1);
+}
+#gridBox #solar:hover div {	 
 	  background:url(../images/solarization2.jpg);
-	  background-size: cover;
-	  position: ;
+	  background-size: cover;	
 }
 
-#gridBox #distort:hover {	  
+#gridBox #distort:hover div {	  
 	  background:url(../images/distortion.jpg);
 	  background-size: cover;
 }
 
 
-#gridBox #focus:hover {	  
+#gridBox #focus:hover div{	  
 	  background:url(../images/out-of-focus.png);
 	  background-size: cover;
 	  
 }
 
-#gridBox #double:hover {	  
+#gridBox #double:hover div{	  
 	  background:url(../images/double-exposure.jpg);
 	  background-size: cover;
 }
 
-#gridBox #blur:hover {	  
+#gridBox #blur:hover div{	  
 	  background:url(../images/motion-blur.jpg);
 	  background-size: cover;
 }
 
-#gridBox #reflect:hover {	  
+#gridBox #reflect:hover div{	  
 	  background:url(../images/reflection.jpg);
 	  background-size: cover;
 }
 
-#gridBox #off:hover {	  
+#gridBox #off:hover div{	  
 	  background:url(../images/off-framing2.png);
 	  background-size: cover;
 }
 
-#gridBox #shadows:hover {	  
+#gridBox #shadows:hover div{	  
 	  background:url(../images/shadows.jpg);
 	  background-size: cover;
 }

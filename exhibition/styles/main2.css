@@ -30,7 +30,7 @@ body {
 
 
 .page {
-  height:100vh;
+  height:120vh;
   position: relative;
 }
 
@@ -40,8 +40,8 @@ body {
 
 
 .rectangle{
-  height: 30vw;
-  width: 70vw;
+  height: 35vw;
+  width: 55vw;
   background-color: #FF6E1D;
   margin-top: 150px;
   position: relative;
@@ -60,8 +60,8 @@ body {
 .quote{
     width:1300px;
     position: absolute;
-    top: 200px;
-    left: 60px;
+    top: 180px;
+    left: 120px;
     animation: quotate 10s linear infinite;
 }
 
@@ -86,13 +86,13 @@ body {
     top:0; 
 }
 .quote.lower {
-  top:249px;
+  top:225px;
   z-index: 1;
 }
 
 .quote.lower.first {
-  top:249px;
-  z-index: -7.5s;
+  /*top:249px;*/
+  /*z-index: -7.5s;*/
 }
 .quote.lower.second {
   animation-delay: -7.5s;
@@ -117,7 +117,7 @@ h1.title {
     font-family:  "Neue Haas Grotesk Display Pro" ;  
     font-weight: bold;
     position: absolute;
-    top: 100px;
+    top: 190px;
     left: 100px; 
     line-height:1.2;
 }
@@ -144,13 +144,43 @@ p{
   color: white;
   font-size: 12pt;
   font-family: raleway;
-  font-weight: normal;
+  font-weight: lighter;
   text-align: left;
   position: absolute;
-  top: 350px;
+  top: 450px;
   left: 100px;
-  right: 800px;
+  right: 820px;
   line-height: 1.5 ;
+}
+
+h3{
+  color: white;
+  font-size: 9pt;
+  font-family: aktiv grotesk;
+  font-weight: lighter;
+  text-align: left;
+  position: absolute;
+  top: 870px;
+  left: 100px;
+  right: 795px;
+  line-height: 1.7 ;
+}
+
+.about{
+  position: absolute;
+  height:600px;
+  right: 165px;
+  top: 250px;
+
+}
+
+.square{
+  height:600px;
+  width: 400px;
+  background-color: #FF6E1D;
+  position: absolute;
+  right: 120px;
+  top: 290px;
 }
 
 
@@ -167,6 +197,189 @@ p{
   100% {
     opacity: 0;
   }
+
+}
+
+#desktop {
+    display: inline;
+    color: white;
+}
+
+#desktop,
+#mobile {
+    display: none;
+}
+/* tablet */
+@media (min-width: 670px) and (max-width: 1024px) {
+    body {
+        background: #2E316D;
+    }
+
+
+.page {
+  height:230vh;
+  position: relative;
+}
+
+    h1.title {
+    color: #FF6E1D;
+    font-size: 45pt;
+    font-family:  "Neue Haas Grotesk Display Pro" ;  
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 75px; 
+    line-height:1.2;
+}
+
+h1.title:hover { 
+  -webkit-text-stroke: 1.0px #FF6E1D;
+  color:transparent;
+    }
+
+p{
+  color: white;
+  font-size: 14pt;
+  font-family: raleway;
+  font-weight: lighter;
+  text-align: left;
+  position: absolute;
+  top: 380px;
+  left: 80px; 
+  right:75px;
+  line-height: 1.8;
+}
+
+
+.quote{
+    width:630px;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    animation: quotate 10s linear infinite;
+}
+.about{
+  position: absolute;
+  height: 510px;
+  right: 250px;
+  top: 1060px;
+}
+.square{
+  height: 510px;
+  width: 320px;
+  background-color: #FF6E1D;
+  position: absolute;
+  right: 200px;
+  top: 1100px;
+}
+
+  h3{
+  color: white;
+  font-size: 9pt;
+  font-family: aktiv grotesk;
+  font-weight: lighter;
+  text-align: left;
+  position: absolute;
+  top: 930px;
+  left: 80px;
+  right: 10px;
+  line-height: 1.7 ;
+}
+    #tablet {
+        display: inline;
+        color: white;
+    }
+    #desktop,
+    #mobile,
+    #print {
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width: 670px) {
+    body {
+        background: #2E316D;
+    }
+
+
+.page {
+  height:220vh;
+  position: relative;
+}
+
+    h1.title {
+    color: #FF6E1D;
+    font-size: 35pt;
+    font-family:  "Neue Haas Grotesk Display Pro" ;  
+    font-weight: bold;
+    position: absolute;
+    top: 130px;
+    left: 40px; 
+    line-height:1.2;
+}
+
+h1.title:hover { 
+  -webkit-text-stroke: 1.0px #FF6E1D;
+  color:transparent;
+    }
+
+p{
+  color: white;
+  font-size: 12pt;
+  font-family: raleway;
+  font-weight: lighter;
+  text-align: left;
+  position: absolute;
+  top: 350px;
+  left: 45px; 
+  right:43px;
+  line-height: 1.7 ;
+}
+
+
+.quote{
+    width:400px;
+    position: absolute;
+    top: 160px;
+    left: 75px;
+    animation: quotate 10s linear infinite;
+}
+.about{
+  position: absolute;
+  height: 480px;
+  right: 110px;
+  top: 1050px;
+}
+.square{
+  height: 480px;
+  width: 320px;
+  background-color: #FF6E1D;
+  position: absolute;
+  right: 70px;
+  top: 1090px;
+}
+
+  h3{
+  color: white;
+  font-size: 9pt;
+  font-family: aktiv grotesk;
+  font-weight: lighter;
+  text-align: left;
+  position: absolute;
+  top: 910px;
+  left: 45px;
+  right: 100px;
+  line-height: 1.7 ;
+}
+    #mobile {
+        display: inline;
+        color: black;
+    }
+    #desktop,
+    #tablet,
+    #print {
+        display: none;
+    }
 
 }
 

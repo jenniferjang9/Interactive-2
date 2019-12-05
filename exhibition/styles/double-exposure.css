@@ -99,6 +99,20 @@ p{
 
 }
 
+.arrow{
+  position: absolute;
+  top: 420px;
+  left: 50px;
+  opacity: .5;
+}
+
+.arrow:hover{
+  opacity:1;
+  transform:scale(1.5);
+}
+
+
+
 
 
 
